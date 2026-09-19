@@ -75,3 +75,21 @@ End users can enable/disable “Connected Apps” in their Gemini settings
 
 * [Controls whether users can share Gems they create within the Gemini app](https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-gem-sharing-on-or-off)
 * When enabled, shared Gems are managed and stored in Google Drive, similar to other Drive files.
+
+![gem sharing setting with a blue checked box](./images/gem-sharing.png)
+
+## Gemini in Google Vault
+
+### Gemini and Google Vault Retention Information
+
+| App/Service         | Retention | Searches/Holds/Exports |
+| ------------------- | :-------: | :--------------------: |
+| Gemini App          | YES       | YES                    |
+| Gemini Notebook     | NO        | NO                     |
+| Gemini in Workspace | NO        | NO                     |
+
+
+
+
+
+
