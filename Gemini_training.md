@@ -6,12 +6,12 @@
 
 Every Google Workspace for Education Super Admin will see a **Generative AI** main menu item with
 additional GenAI menu items. It's important to know this is where admins turn **ON and OFF**
-Gemini, Gemini Notebook, Gemini in Workspace. It's also where usage reports and audit tracking
-is accessed.
+Gemini, Gemini Notebook, and Gemini in Workspace. It's also where additional Gemini settings
+and usage reports are found.
 
 ![Generative AI menu showing Gemini app navigations](./images/gemini-app-menu.png)
 
-* Everyone should see *all* of these navigation items
+* Everyone should see *all* of these menu items
 * If you do not see **"Gemini in Workspace"** open a Google Support Ticket
 * **"Gemini Enterprise"** is an additional paid add-on everyone will see
 
@@ -37,21 +37,21 @@ Step by Step guide: [Help Center article](https://knowledge.workspace.google.com
 
 ### Configuring Gemini App Settings: Connected Apps
 
-One powerful but potentially problematic feature are Connected Apps. Connected Apps
+One powerful but potentially problematic feature are **Connected Apps**. Connected Apps
 allow the user to integrate to other workspace apps while staying within the Gemini App.
 For example: a user would be able to query their Google Drive documents and allow the
 Gemini App to use that data to help with its response.
 
-**Why is this potentially problematic?** School often have an oversharing problem, which means
+**Why is this potentially problematic?** Schools often have an oversharing problem, which means
 users may have access to Google Documents they shouldn't. This feature, while powerful, could
-turn curent passive data leaks into active data leaks.
+turn *current passive data leaks into **active** data leak*s.
 
 **Break glass fix:** If an admin finds their organization in the scenario where users are
 finding overshared documents, the connected apps setting could be disabled.
 
 1. **Workspace apps:** Allows Gemini to interact with services like Docs and Calendar.
 1. **Classroom app:** Allows the Gemini app to find information from Google Classroom
-   and return responses in the Gemini app *(users 18+ only)*.
+   and return responses in the Gemini app.
 1. **Other apps:** Allows Gemini to interact with services like YouTube and Maps.
 
 ![Apps table of settings for workspace, classroom, and other](./images/connected-apps.png)
@@ -63,7 +63,7 @@ End users can enable/disable **“Connected Apps”** in their Gemini settings
 
 ### Configuring Gemini Conversation History
 
-End users are able to decide when their Gemini app conversation history falls off but
+End users are able to decide when their Gemini app conversations get purged but
 just what exactly they can modify depends on the Admin Console settings. Google Admins
 need to confirm their settings with other key stakeholders. 
 
@@ -78,8 +78,8 @@ need to confirm their settings with other key stakeholders.
 
 ### Configuring Gemini Conversation Management
 
-One end user feature that helps with organization is the ability to **delet** Gemini app chats.
-Organizations can decide whether it's allowed for different sets of users (ie Staff vs students).
+One end user feature that helps with organization is the ability to **delete** Gemini app chats.
+Organizations can decide whether it's allowed for different sets of users (ie staff vs students).
 
 * Even if users delete chats, *they are still retained by Vault* based on your retention rules, just like Gmail.
 * Temporary chats *are* retained in Vault but do not get saved to the end user’s history in the Gemini App.
@@ -89,10 +89,10 @@ Organizations can decide whether it's allowed for different sets of users (ie St
 
 ### Configuring Gemini App Settings: Conversation Sharing
 
-The Gemini App allows for sharing of chats in a two ways: **public links or drive links**.
+The Gemini App allows for sharing of chats in a two ways: **public links** or **drive links**.
 General best practice is to select Drive links and allow the sharing permissions to
-work like Google Docs. Since the Drive links options came after public links Admins
-may need to do into the admin console and configure this setting.
+work like Google Docs. Since the Drive links options came after public links, Admins
+may need to go into the admin console and configure this setting.
 
 * [Controls whether users can share conversations they create within the Gemini app](https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-conversation-sharing-on-or-off)
 * When enabled, users can create **public links** or **Drive links** to conversations,
@@ -119,7 +119,7 @@ this feature is **ON** but admins should confirm their setting.
 
 ### Gemini and Google Vault Retention Information
 
-It can get confusing about just what does **"Gemini"*** refer to and what gets saved
+It can get confusing regarding what services does **"Gemini"** refer to and what gets saved
 for potential FOIA. **Google Vault only covers the Gemini App**, check out the
 table below for guidance:
 
